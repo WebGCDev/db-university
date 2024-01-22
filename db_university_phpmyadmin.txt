@@ -47,11 +47,16 @@ WHERE
     `date` = '2020-06-20' AND `hour` > '14:00:00';
 
 ----- Selezionare tutti i corsi di laurea magistrale (ottenere 38 risultati)-----
+---dati estratti in ordine alfabetico per dare un ordine anche visivo
 
-
-
-
-
+SELECT
+    *
+FROM
+    `degrees`
+WHERE
+    `level` = 'magistrale'
+ORDER BY
+    `name` ASC;    
 
 ----- Da quanti dipartimenti è composta l'università? (ottenere 12 risultati)-----
 
