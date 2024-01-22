@@ -65,7 +65,7 @@ ORDER BY
 (volevo cambiare nome all'ultimo commit fatto usando git commit --amend perchè non avevo messo il numero alla query consegnata n.6 e mi ha aggiunto voci mai viste!)
 
 ----- Da quanti dipartimenti è composta l'università? (ottenere 12 risultati)-----
-----dati estratti per ID in ordine ascendente
+----dati estratti per ID in ordine ascendente----
 
 SELECT
     *
@@ -75,3 +75,15 @@ ORDER BY
     `id` ASC;
 
 ----- Quanti sono gli insegnanti che non hanno un numero di telefono?-----
+----dati estratti mettendo in ordine alfabetico i cognomi----
+
+SELECT 
+    *
+FROM
+    `teachers`
+WHERE
+    `phone` IS NULL
+ORDER BY
+    `surname` ASC;
+
+------------------FINE ESERCIZIO------------------
