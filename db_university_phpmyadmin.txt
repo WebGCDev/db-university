@@ -1,0 +1,62 @@
+----- Selezionare tutti gli studenti nati nel 1990 (ottenere 160 risultati)-----
+
+SELECT
+    COUNT(*) AS students_1990
+FROM
+    `students`
+WHERE
+    YEAR(`date_of_birth`) = 1990;
+
+----- Selezionare tutti i corsi che valgono più di 10 crediti (ottenere 479 risultati)-----
+
+
+
+
+
+
+
+
+
+
+----- Selezionare tutti gli studenti che hanno più di 30 anni-----
+
+
+
+
+
+
+
+
+----- Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea (ottenere 286 risultati)-----
+
+
+
+
+
+
+
+----- Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020 (ottenere 21 risultati)-----
+
+
+
+
+
+
+
+----- Selezionare tutti i corsi di laurea magistrale (ottenere 38 risultati)-----
+
+
+
+
+
+
+----- Da quanti dipartimenti è composta l'università? (ottenere 12 risultati)-----
+
+
+
+
+
+
+
+
+----- Quanti sono gli insegnanti che non hanno un numero di telefono?-----
