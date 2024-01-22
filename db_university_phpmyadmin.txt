@@ -47,7 +47,11 @@ WHERE
     `date` = '2020-06-20' AND `hour` > '14:00:00';
 
 ----- Selezionare tutti i corsi di laurea magistrale (ottenere 38 risultati)-----
+<<<<<<< HEAD
 ----dati estratti in ordine alfabetico per dare un ordine anche visivo----
+=======
+---dati estratti in ordine alfabetico per dare un ordine anche visivo
+>>>>>>> 6e4550b651dd8fe7bef074ebdb55266284508ddc
 
 SELECT
     *
