@@ -62,13 +62,16 @@ WHERE
 ORDER BY
     `name` ASC;    
 
+(volevo cambiare nome all'ultimo commit fatto usando git commit --amend perchè non avevo messo il numero alla query consegnata n.6 e mi ha aggiunto voci mai viste!)
+
 ----- Da quanti dipartimenti è composta l'università? (ottenere 12 risultati)-----
+----dati estratti per ID in ordine ascendente
 
-
-
-
-
-
-
+SELECT
+    *
+FROM
+    `departments`
+ORDER BY
+    `id` ASC;
 
 ----- Quanti sono gli insegnanti che non hanno un numero di telefono?-----
