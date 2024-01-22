@@ -19,10 +19,18 @@ Infine, andiamo a definire le colonne e i tipi di dato di ogni tabella.
 Dopo aver creato un nuovo database nel vostro phpMyAdmin eseguite le query del file allegato:
 
 1.	Selezionare tutti gli studenti nati nel 1990 (ottenere 160 risultati)
+![query1](/PHPMYADMIN/query1.jpg)
 2.	Selezionare tutti i corsi che valgono più di 10 crediti (ottenere 479 risultati)
+![query2](/PHPMYADMIN/query2.jpg)
 3.	Selezionare tutti gli studenti che hanno più di 30 anni
+![query3](/PHPMYADMIN/query3.jpg)
 4.	Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea (ottenere 286 risultati)
+![query4](/PHPMYADMIN/query4.jpg)
 5.	Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020 (ottenere 21 risultati)
+![query5](/PHPMYADMIN/query5.jpg)
 6.	Selezionare tutti i corsi di laurea magistrale (ottenere 38 risultati)
+![query6](/PHPMYADMIN/query6.jpg)
 7.	Da quanti dipartimenti è composta l'università? (ottenere 12 risultati)
+![query7](/PHPMYADMIN/query7.jpg)
 8.	Quanti sono gli insegnanti che non hanno un numero di telefono?
+![query8](/PHPMYADMIN/query8.jpg)
