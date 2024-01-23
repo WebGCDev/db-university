@@ -98,3 +98,27 @@ WHERE
 ----- BONUS: Selezionare per ogni studente il numero di tentativi sostenuti
 per ogni esame, stampando anche il voto massimo. Successivamente,
 filtrare i tentativi con voto minimo 18. -----
+
+SELECT
+    `students`.`name` AS "Nome Studente",
+    `students`.`surname` AS "Cognome Studente",
+    `students`.`registration_number` AS "Matricola Universitaria",
+    `courses`.`name` AS "Nome Esame",
+    COUNT(*) AS "Numero di volte in cui lo studente non ha superato l'esame"
+FROM
+    `students`
+JOIN `exam_student` ON `students`.`id` = `exam_student`.`student_id`
+JOIN `exams` ON `exam_student`.`exam_id` = `exams`.`id`
+JOIN `courses` ON `exams`.`course_id` = `courses`.`id`
+WHERE
+    `exam_student`.`vote` < 18
+GROUP BY
+    `students`.`name`,
+    `students`.`surname`,
+    `students`.`registration_number`,
+    `courses`.`name`
+ORDER BY
+    `students`.`name`,
+    `students`.`surname`,
+    `students`.`registration_number`,
+    `courses`.`name`;
