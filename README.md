@@ -34,3 +34,41 @@ Dopo aver creato un nuovo database nel vostro phpMyAdmin eseguite le query del f
 ![query7](/PHPMYADMIN/query7.JPG)
 8.	Quanti sono gli insegnanti che non hanno un numero di telefono?
 ![query8](/PHPMYADMIN/query8.JPG)
+
+
+# DB University 23-01-2024
+
+### QUERY GROUPBY
+
+1.  Contare quanti iscritti ci sono stati ogni anno
+![querygroupby1](/QUERYGROUPBY/querygroupby1.JPG)
+2.  Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+![querygroupby2](/QUERYGROUPBY/querygroupby2.JPG)
+3.  Calcolare la media dei voti di ogni appello d'esame
+![querygroupby3](/QUERYGROUPBY/querygroupby3.JPG)
+4.  Contare quanti corsi di laurea ci sono per ogni dipartimento
+![querygroupby4](/QUERYGROUPBY/querygroupby4.JPG)
+
+
+### QUERY JOIN
+
+1.  Selezionare tutti gli studenti iscritti al Corso di Laurea in Economia
+![queryjoin1](/QUERYJOIN/queryjoin1.JPG)
+2.  Selezionare tutti i Corsi di Laurea Magistrale del Dipartimento di
+Neuroscienze
+![queryjoin2](/QUERYJOIN/queryjoin2.JPG)
+3.  Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)
+![queryjoin3](/QUERYJOIN/queryjoin3.JPG)
+4.  Selezionare tutti gli studenti con i dati relativi al corso di laurea a cui
+sono iscritti e il relativo dipartimento, in ordine alfabetico per cognome e
+nome
+![queryjoin4](/QUERYJOIN/queryjoin4.JPG)
+5.  Selezionare tutti i corsi di laurea con i relativi corsi e insegnanti
+![queryjoin5](/QUERYJOIN/queryjoin5.JPG)
+6.  Selezionare tutti i docenti che insegnano nel Dipartimento di
+Matematica
+![queryjoin6](/QUERYJOIN/queryjoin6.JPG)
+7.  BONUS: Selezionare per ogni studente il numero di tentativi sostenuti
+per ogni esame, stampando anche il voto massimo. Successivamente,
+filtrare i tentativi con voto minimo 18.
+![queryjoin7bonus](/QUERYJOIN/queryjoin7bonus.JPG)
