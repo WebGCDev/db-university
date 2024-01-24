@@ -122,3 +122,25 @@ ORDER BY
     `students`.`surname`,
     `students`.`registration_number`,
     `courses`.`name`;
+
+!!!Versione Gaetano Teacher!!!
+
+SELECT
+    students.id,
+    students.name,
+    students.surname,
+    courses.name,
+    COUNT(exam_student.vote) AS `numero_tentativi`,
+    MAX(exam_student.vote) AS `voto_massimo`,
+    MIN(exam_student.vote) AS `voto_minimo`
+FROM
+    `students`
+INNER JOIN `exam_student` ON `students`.`id` = `exam_student`.`student_id`
+INNER JOIN `exams` ON `exam_student`.`exam_id` = `exams`.`id`
+INNER JOIN `courses` ON `exams`.`course_id` = `courses`.id
+GROUP BY
+    students.id,
+    courses.id
+HAVING `voto_minimo` > 18
+
+
